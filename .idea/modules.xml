@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gae-java-endpoints.iml" filepath="$PROJECT_DIR$/gae-java-endpoints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gae-java-endpoints_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gae-java-endpoints_main.iml" group="gae-java-endpoints" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gae-java-endpoints_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gae-java-endpoints_test.iml" group="gae-java-endpoints" />
+    </modules>
+  </component>
+</project>
