@@ -16,6 +16,8 @@
 
 package com.example.echo;
 
+import com.example.echo.structs.Message;
+import com.example.echo.structs.Email;
 import com.google.api.server.spi.auth.EspAuthenticator;
 import com.google.api.server.spi.auth.common.User;
 import com.google.api.server.spi.config.AnnotationBoolean;
