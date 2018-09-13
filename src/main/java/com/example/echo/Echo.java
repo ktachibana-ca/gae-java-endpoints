@@ -30,6 +30,7 @@ import com.google.api.server.spi.response.UnauthorizedException;
 
 /**
  * The Echo API which Endpoints will be exposing.
+ * エンドポイントが公開するEcho API
  */
 // [START echo_api_annotation]
 @Api(
