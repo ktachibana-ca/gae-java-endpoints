@@ -76,6 +76,11 @@
       <artifactId>javax.inject</artifactId>
       <version>1</version>
     </dependency>
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-bigquery</artifactId>
+      <version>1.32.0</version>
+    </dependency>
   </dependencies>
 
   <build>

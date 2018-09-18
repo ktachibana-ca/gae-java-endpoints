@@ -58,23 +58,39 @@
           <element id="library" level="project" name="Gradle: javax.transaction:transaction-api:1.1" />
           <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
           <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.7" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.4/27d3a9f7bbdcf72d93c9b2da7017e39551bfa9fb/jackson-core-2.6.4.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.22.0/d441fc58329c4a4c067acec04ac361627f66ecc8/google-http-client-1.22.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.3.0/2a924ad1897dd1b768e1859943e2d0408789150a/grpc-context-1.3.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.22.0/cc014d64ae11117e159d334c99d9c246d9b36f44/google-http-client-jackson2-1.22.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-appengine/1.22.0/37091fdc63f6b496199e4512f0f291d6fffdd697/google-http-client-appengine-1.22.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.0.1/1d7d28fa738bdbfe4fbd895d9486308999bdf440/httpclient-4.0.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.0.1/e813b8722c387b22e1adccf7914729db09bcb4a9/httpcore-4.0.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.3/fd32786786e2adb664d5ecc965da47629dca14ba/commons-codec-1.3.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.22.0/244350c0c845c583717ade13f5666a452fd0cfa/google-api-client-1.22.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/463f8378feba44df7ba7cd9272d01837dad62b36/guava-jdk5-17.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.2.0/62ccf171a106ff6791507f2d5364c275f9a3131d/protobuf-java-3.2.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.2.0/25ec9bf5bb119978c514b46f568bed896c5a4a8b/protobuf-java-util-3.2.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.22.0/1d63f369ac78e4838a3197147012026e791008cb/google-oauth-client-1.22.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-bigquery/1.39.0/18c48136c0ad9d22edfdd87cd472b64c3d3056a8/google-cloud-bigquery-1.39.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core/1.39.0/c98156924fbbcae8f3add234217754b35c11afd4/google-cloud-core-1.39.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-http/1.39.0/afdacb8a6236ce3e1b81ca3f57c50a7990209476/google-cloud-core-http-1.39.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value/1.4/6d1448fcd13074bd3658ef915022410b7c48343b/auto-value-1.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-bigquery/v2-rev397-1.24.1/edce72b4cb2ae166ea002d43533a48eba96c72/google-api-services-bigquery-v2-rev397-1.24.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.2/36d6e77a419cb455e6fd5909f6f96b168e21e9d0/joda-time-2.9.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api/api-common/1.7.0/ea59fb8b2450999345035dec8a6f472543391766/api-common-1.7.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api/gax/1.30.0/58fa2feb11b092be0a6ebe705a28736f12374230/gax-1.30.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.6.0/3680d0042d4fe0b95ada844ff24da0698a7f0773/protobuf-java-util-3.6.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/1.12.0/1140cc74df039deb044ed0e320035e674dc13062/proto-google-common-protos-1.12.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-iam-v1/0.12.0/ea312c0250a5d0a7cdd1b20bc2c3259938b79855/proto-google-iam-v1-0.12.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-credentials/0.10.0/f981288bd84fe6d140ed70d1d8dbe994a64fa3cc/google-auth-library-credentials-0.10.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-oauth2-http/0.10.0/c079a62086121973a23d90f54e2b8c13050fa39d/google-auth-library-oauth2-http-0.10.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-appengine/1.24.1/8535031ae10bf6a196e68f25e10c0d6382699cb6/google-http-client-appengine-1.24.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson/1.24.1/2c88e77c14effdda76f02a0eac968de74e0bd4e/google-http-client-jackson-1.24.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api/gax-httpjson/0.47.0/d096f3142eb3adbf877588d1044895d148d9efcb/gax-httpjson-0.47.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-api/0.15.0/9a098392b287d7924660837f4eba0ce252013683/opencensus-api-0.15.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-http-util/0.15.0/d88690591669d9b5ba6d91d9eac7736e58ccf3da/opencensus-contrib-http-util-0.15.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.3.3/3ea31c96676ff12ab56be0b1af6fff61d1a4f1f2/threetenbp-1.3.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.11/e32303ef8bd18a5c9272780d49b81c95e05ddf43/jackson-core-asl-1.9.11.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.12.0/5b63a170b786051a42cce08118d5ea3c8f60f749/grpc-context-1.12.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.24.1/2ad1dffd8a450055e68d8004fe003033b751d761/google-http-client-jackson2-1.24.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.24.1/396eac8d3fb1332675f82b208f48a469d64f3b4a/google-http-client-1.24.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/d1577ae15f01ef5438c5afc62162457c00a34713/httpclient-4.5.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/e3fd8ced1f52c7574af952e2e6da0df8df08eb82/httpcore-4.4.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.24.1/7b0e0218b96808868c23a7d0b40566a713931d9f/google-oauth-client-1.24.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.24.1/37de23fb9b8b077de4ecec3192d98e752b0e5d72/google-api-client-1.24.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.2/aed20e50152a2f19adc1995c8d8f307c7efa414d/jackson-core-2.9.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.6.0/5333f7e422744d76840c08a106e28e519fbe3acd/protobuf-java-3.6.0.jar" />
         </element>
       </element>
     </root>
