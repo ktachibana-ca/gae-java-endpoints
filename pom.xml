@@ -44,7 +44,7 @@
     <endpoints.framework.version>2.1.2</endpoints.framework.version>
     <endpoints.management.version>1.0.4</endpoints.management.version>
 
-    <endpoints.project.id>kino-study-216306</endpoints.project.id>
+    <endpoints.project.id>biz-truedata-kinoshita-test</endpoints.project.id>
   </properties>
 
   <dependencies>
@@ -75,6 +75,11 @@
       <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
       <version>1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-pubsub</artifactId>
+      <version>1.40.0</version>
     </dependency>
   </dependencies>
 
