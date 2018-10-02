@@ -16,6 +16,7 @@
 
 package com.example.echo;
 
+import com.example.echo.pubsub.PubSub;
 import com.example.echo.structs.Message;
 import com.example.echo.structs.Email;
 import com.google.api.server.spi.auth.EspAuthenticator;
@@ -29,6 +30,8 @@ import com.google.api.server.spi.config.ApiNamespace;
 import com.google.api.server.spi.config.Named;
 import com.google.api.server.spi.config.Nullable;
 import com.google.api.server.spi.response.UnauthorizedException;
+
+import java.util.logging.Logger;
 
 /**
  * The Echo API which Endpoints will be exposing.
@@ -59,6 +62,7 @@ import com.google.api.server.spi.response.UnauthorizedException;
 // [END echo_api_annotation]
 
 public class Echo {
+  private static final Logger logger = Logger.getLogger(Echo.class.getName());
 
   /**
    * Echoes the received message back. If n is a non-negative integer, the message is copied that
@@ -73,6 +77,15 @@ public class Echo {
   // [START echo_method]
   @ApiMethod(name = "echo")
   public Message echo(Message message, @Named("n") @Nullable Integer n) {
+    logger.info("start echo api");
+
+    try {
+      PubSub.main();
+    } catch (Exception e) {
+      logger.warning(e.toString());
+    }
+
+    logger.info("end echo api");
     return doEcho(message, n);
   }
   // [END echo_method]
@@ -90,6 +103,7 @@ public class Echo {
   // [START echo_path]
   @ApiMethod(name = "echo_path_parameter", path = "echo/{n}")
   public Message echoPathParameter(Message message, @Named("n") int n) {
+
     return doEcho(message, n);
   }
   // [END echo_path]
