@@ -31,7 +31,8 @@
     <!-- Route API method requests to the backend. -->
     <servlet-mapping>
         <servlet-name>EndpointsServlet</servlet-name>
-        <url-pattern>/_ah/api/*</url-pattern>
+        <!--<url-pattern>/_ah/api/*</url-pattern>-->
+        <url-pattern>/_ah/push-handlers/*</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>

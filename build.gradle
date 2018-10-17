@@ -19,7 +19,7 @@ buildscript {
 
   dependencies {
     // [START endpoints_plugin]
-    classpath 'com.google.cloud.tools:endpoints-framework-gradle-plugin:1.0.2'
+    classpath 'com.google.cloud.tools:endpoints-framework-gradle-plugin:1.0.3'
     // [END endpoints_plugin]
     classpath 'com.google.cloud.tools:appengine-gradle-plugin:1.3.3'
   }
@@ -50,7 +50,7 @@ dependencies {
     compile 'com.google.endpoints:endpoints-framework:2.0.8'
     compile 'com.google.endpoints:endpoints-management-control-appengine:1.0.5'
     compile 'com.google.endpoints:endpoints-framework-auth:1.0.5'
-    compile 'com.google.cloud:google-cloud-pubsub:1.40.0'
+    compile 'com.google.cloud:google-cloud-pubsub:1.48.0'
 }
 
 endpointsServer {
