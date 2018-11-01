@@ -44,7 +44,7 @@
     <endpoints.framework.version>2.1.2</endpoints.framework.version>
     <endpoints.management.version>1.0.4</endpoints.management.version>
 
-    <endpoints.project.id>ca-tachibana-test-1031-asia</endpoints.project.id>
+    <endpoints.project.id>YOUR-PROJECT-ID</endpoints.project.id>
   </properties>
 
   <dependencies>
